@@ -3,5 +3,5 @@ variable "sample"{
 }
 
 output "Sample-op"{
-    value = "sample"
+    value = var.sample
 }
