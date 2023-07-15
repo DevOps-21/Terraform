@@ -9,3 +9,4 @@ output "Sample-op"{
 output "Sample-var-op"{
     value = "Value of the veriable is ${var.sample-op}"
 }
+
