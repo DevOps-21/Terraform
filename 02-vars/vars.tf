@@ -5,14 +5,14 @@ variable "sample"{
 output "sample_op" {
   value = var.sample
 }
-/*
-variable "sample_op"{
-    value = var.sample
+
+variable "sample_output"{
+    value = var.sample 
 }
 
 output "sample_var_op"{
-    value = "Value of the veriable is ${var.sample_op}"
-}*/
+    value = "Value of the veriable is ${var.sample_output}"
+}
 
 # list varibale create in terraform
 
