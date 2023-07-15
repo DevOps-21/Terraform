@@ -1,4 +1,4 @@
-variable "sample"{
+/*variable "sample"{
     default = "Welcome to terraform "
 }
 
@@ -8,7 +8,7 @@ variable "sample_op"{
 
 output "sample_var_op"{
     value = "Value of the veriable is ${var.sample_op}"
-}
+}*/
 
 # list varibale create 
 
