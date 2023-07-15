@@ -42,6 +42,6 @@ variable "devops54_map" {
 }
 
 output "devops54_map_op" {
-    value ="Welcome to ${var.devops54_map[BatchName]} no ${var.devops54_map[No]} at ${var.devops54_map[Time]} duration ${var.devops54_map[Duration]} "
+    value ="Welcome to ${var.devops54_map["BatchName"]} no ${var.devops54_map["No"]} at ${var.devops54_map["Time"]} duration ${var.devops54_map["Duration"]} "
   
 }
