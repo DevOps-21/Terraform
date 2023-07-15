@@ -10,7 +10,7 @@ output "sample_var_op"{
     value = "Value of the veriable is ${var.sample_op}"
 }*/
 
-# list varibale create 
+# list varibale create in terraform
 
 variable "example_list" {
     default = [
