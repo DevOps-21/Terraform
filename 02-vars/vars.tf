@@ -1,7 +1,11 @@
-/*variable "sample"{
+variable "sample"{
     default = "Welcome to terraform "
 }
 
+output "sample_op" {
+  value = var.sample
+}
+/*
 variable "sample_op"{
     value = var.sample
 }
