@@ -2,7 +2,7 @@ variable "sample"{
     default = "Welcome to terraform "
 }
 
-output "sample_op"{
+variable "sample_op"{
     value = var.sample
 }
 
