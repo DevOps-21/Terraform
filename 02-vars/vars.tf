@@ -12,7 +12,7 @@ output "sample_var_op"{
 
 # list varibale create 
 
-variable "example" {
+variable "example_list" {
     default = [
         "welcome",
         "to",
