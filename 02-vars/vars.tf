@@ -23,6 +23,6 @@ variable "example_list" {
 }
 
 output "example_op_list" {
-    value = "I am in ${var.eample[2]} proud to ${var.example[0]} to ${var.example[3]}"
+    value = "I am in ${var.eample_list[2]} proud to ${var.eample_list[0]} to ${var.eample_list[3]}"
   
 }
