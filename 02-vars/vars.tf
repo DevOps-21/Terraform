@@ -31,7 +31,7 @@ output "example_list_op" {
 
 # MAP decleartion in Terraform
 
-variable "devops54_test" {
+variable "devops54_map" {
     default = {
         BatchName = "Devops"
         No = 55
@@ -41,7 +41,7 @@ variable "devops54_test" {
   
 }
 
-output "devops54_test_class" {
-    value ="Welcome to ${devops54_test[BatchName] } no ${devops54_test[No] } at ${devops54_test[Time] } duration ${devops54_test[Duration] } "
+output "devops54_map_op" {
+    value ="Welcome to ${var.devops54_map[BatchName]} no ${var.devops54_map[No]} at ${var.devops54_map[Time]} duration ${var.devops54_map[Duration]} "
   
 }
