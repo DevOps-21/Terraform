@@ -14,15 +14,16 @@ output "sample_var_op"{
 
 variable "example_list" {
     default = [
-        "welcome",
-        "to",
-        "india",
-        1947
+        "AWS",
+        "DevOps",
+        55,
+        "Trainer",
+        "Terrafrom"
     ]
   
 }
 
-output "example_op_list" {
-    value = "I am in ${var.eample_list[2]} proud to ${var.eample_list[0]} to ${var.eample_list[3]}"
+output "example_list_op" {
+    value = "Welcome to ${var.example_list[1]} with ${var.example_list[0]} Training and this is our batch ${var.example_list[2]} and the current topic is ${var.example_list[4]}"
   
 }
