@@ -2,11 +2,11 @@ variable "sample"{
     default = "Welcome to terraform "
 }
 
-output "sample-op"{
+output "sample_op"{
     value = var.sample
 }
 
-output "sample-var-op"{
-    value = "Value of the veriable is ${var.sample-op}"
+output "sample_var_op"{
+    value = "Value of the veriable is ${var.sample_op}"
 }
 
