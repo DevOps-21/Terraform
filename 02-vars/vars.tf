@@ -7,7 +7,7 @@ output "sample_op" {
 }
 
 variable "sample_output"{
-    dedefault = "welcome to Terraform 55 batch"
+    default = "welcome to Terraform 55 batch"
 }
 
 output "sample_var_op"{
