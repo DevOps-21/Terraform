@@ -6,3 +6,6 @@ resource "aws_instance" "web" {
     Name = "HelloWorld"
   }
 }
+
+
+# 14th july class
