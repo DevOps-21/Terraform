@@ -8,6 +8,6 @@ output "city_op" {
 variable "state" {}
 
 output "state_name" {
-    value = var.state
+    value = "State name is ${var.state}"
   
 }
