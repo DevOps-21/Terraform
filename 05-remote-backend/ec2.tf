@@ -3,7 +3,7 @@ resource "aws_instance" "remote-app" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Linus_Server_with_RemoteBackend"
+    Name = "Linus_Server_with_Remote_Backend"
   }   
   
 }
