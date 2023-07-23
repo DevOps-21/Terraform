@@ -1,9 +1,13 @@
-resource "aws_instance" "remote-app" {
+resource "aws_instance" "sample" {
   ami           = "ami-0c1d144c8fdd8d690"
   instance_type = "t2.micro"
+  vpc_security_group_ids = [var.sg]  
+}
 
-  tags = {
-    Name = "Linus_Server_with_Remote_Backend"
-  }   
+
+variable "sg" {}
+
+output "public_ip" {
+  value = aws_instance.sample.public_ip
   
 }
